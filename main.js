@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api"; // change to your hosted backend URL
+const BASE_URL = "https://lms-backend.onrender.com/api"; // change to your hosted backend URL
 
 async function login() {
   const email = document.getElementById("email").value;
