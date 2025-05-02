@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LMS Frontend</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <input id="email" placeholder="Email" /><br/>
+  <input id="password" type="password" placeholder="Password" /><br/>
+  <button onclick="login()">Login</button>
+
+  <h2>Register</h2>
+  <input id="regName" placeholder="Name" /><br/>
+  <input id="regEmail" placeholder="Email" /><br/>
+  <input id="regPassword" type="password" placeholder="Password" /><br/>
+  <select id="regRole">
+    <option value="student">Student</option>
+    <option value="mentor">Mentor</option>
+  </select><br/>
+  <button onclick="register()">Register</button>
+
+  <h2>Mentors</h2>
+  <ul id="mentorList"></ul>
+
+  <script src="main.js"></script>
+</body>
+</html>
